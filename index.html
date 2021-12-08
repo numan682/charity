@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Charity Event Registration</title>
+      <link href="https://fonts.googleapis.com/css?family=Lato:400,100,300,300i,700,700i,900,100i" rel="stylesheet">
+
+<link rel='stylesheet' href='https://cdn.rawgit.com/JacobLett/bootstrap4-latest/master/bootstrap-4-latest.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<section>
+  <form action="process.php" method="POST">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-12 col-lg-8 col-xl-10">
+          <div class="row">
+            <div class="col text-center title">
+              <h1>Registration Form</h1>
+            </div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col mt-4">
+              <input name="teamname" required type="text" class="form-control" placeholder="Team Name">
+            </div>
+          </div>
+          <div class="row align-items-center mt-4">
+            <div class="col">
+              <input name="email" required type="email" class="form-control" placeholder="Email">
+            </div>
+          </div> <div class="row align-items-center mt-4">
+            <div class="col">
+              <input name="phonenumber"  required type="number" class="form-control" placeholder=" Phone Number">
+            </div>
+          </div>
+          <div class="row align-items-center mt-4">
+            <div class="col">
+              <input name="logourl" required type="url" class="form-control" placeholder="Logo URL">
+            </div>
+          </div>
+                   <h1 class="player_information">Player Information</h1>
+                 
+                   <h4 class="player_information_number">Player 1 Information</h3>
+          <div class="row align-items-center mt-4">
+            <div class="col">
+              <input name="player1name" type="text" class="form-control" placeholder="Real Name">
+            </div>
+            <div class="col">
+              <input name="player1ign" type="text" class="form-control" placeholder="IGN (IN GAME NAME)">
+            </div>
+            <div class="col">
+              <input name="player1id" type="text" class="form-control" placeholder="ID (IN GAME ID)">
+            </div>
+          </div> <br><br>
+          <h4 class="player_information_number">Player 2 Information</h3>
+            <div class="row align-items-center mt-4">
+              <div class="col">
+                <input name="player2name" type="text" class="form-control" placeholder="Real Name">
+              </div>
+              <div class="col">
+                <input name="player2ign" type="text" class="form-control" placeholder="IGN (IN GAME NAME)">
+              </div>
+              <div class="col">
+                <input name="player2id" type="text" class="form-control" placeholder="ID (IN GAME ID)">
+              </div>
+            </div><br><br>
+            <h4 class="player_information_number">Player 3 Information</h3>
+              <div class="row align-items-center mt-4">
+                <div class="col">
+                  <input name="player3name" type="text" class="form-control" placeholder="Real Name">
+                </div>
+                <div class="col">
+                  <input name="player3ign" type="text" class="form-control" placeholder="IGN (IN GAME NAME)">
+                </div>
+                <div class="col">
+                  <input name="player3id" type="text" class="form-control" placeholder="ID (IN GAME ID)">
+                </div>
+              </div> <br><br>
+              <h4 class="player_information_number">Player 4 Information</h3>
+                <div class="row align-items-center mt-4">
+                  <div class="col">
+                    <input name="player4name" type="text" class="form-control" placeholder="Real Name">
+                  </div>
+                  <div class="col">
+                    <input name="player4ign" type="text" class="form-control" placeholder="IGN (IN GAME NAME)">
+                  </div>
+                  <div class="col">
+                    <input name="player4id" type="text" class="form-control" placeholder="ID (IN GAME ID)">
+                  </div>
+                </div> <br><br>
+                <h4 class="player_information_number">Player 5 Information</h3>
+                  <div class="row align-items-center mt-4">
+                    <div class="col">
+                      <input name="player5name" type="text" class="form-control" placeholder="Real Name">
+                    </div>
+                    <div class="col">
+                      <input name="player5ign" type="text" class="form-control" placeholder="IGN (IN GAME NAME)">
+                    </div>
+                    <div class="col">
+                      <input name="player5id" type="text" class="form-control" placeholder="ID (IN GAME ID)">
+                    </div>
+                  </div> <br><br>
+                  <h4 class="player_information_number">Player 6 Information</h3>
+                    <div class="row align-items-center mt-4">
+                      <div class="col">
+                        <input name="player6name" type="text" class="form-control" placeholder="Real Name">
+                      </div>
+                      <div class="col">
+                        <input name="player6ign" type="text" class="form-control" placeholder="IGN (IN GAME NAME)">
+                      </div>
+                      <div class="col">
+                        <input name="player6id" type="text" class="form-control" placeholder="ID (IN GAME ID)">
+                      </div>
+                    </div> <br><br>
+                    <h4>Donation Information</h4>
+                    <div class="row align-items-center">
+                      <div class="col mt-4">
+                       
+                        <input name="bkashnumber" required type="text" class="form-control" placeholder="BKASH NUMBER"><br>
+                        <input name="transiction" required type="text" class="form-control" placeholder="Transiction ID">
+                      </div>
+                    </div>
+          <div class="row justify-content-start mt-4">
+            <div class="col">
+             
+
+              <button class="btn btn-primary mt-4">Submit Form</button><br><br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+  </section>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-3.2.1.slim.min.js'></script>
+<script src='https://cdn.rawgit.com/JacobLett/bootstrap4-latest/504729ba/bootstrap-4-latest.min.js'></script>
+</body>
+</html>
